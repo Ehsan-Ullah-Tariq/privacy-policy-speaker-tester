@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="How Speaker Tester handles microphone audio, local test results, permissions, and advertising information." />
+  <title>Privacy Policy - Speaker Tester</title>
+  <style>
+    :root { --bg:#f6f7fb; --card:#fff; --text:#1a2233; --muted:#5f6778; --accent:#5a4ff3; --border:#e4e8f1; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:Arial,Helvetica,sans-serif; background:linear-gradient(180deg,#f3f5ff 0%,var(--bg) 100%); color:var(--text); line-height:1.65; }
+    .wrap { max-width:860px; margin:auto; padding:32px 20px 64px; }
+    .hero { background:linear-gradient(135deg,#fff,#eef1ff); }
+    .hero, .content { border:1px solid var(--border); border-radius:24px; padding:32px 28px; box-shadow:0 10px 32px rgb(42 52 90 / 6%); }
+    .content { margin-top:20px; background:var(--card); }
+    h1 { margin:0 0 12px; font-size:34px; line-height:1.2; }
+    h2 { margin:28px 0 10px; font-size:22px; color:var(--accent); }
+    h2:first-child { margin-top:0; }
+    p { margin:0 0 14px; }
+    ul { padding-left:22px; margin:0 0 18px; }
+    li { margin-bottom:8px; }
+    a { color:var(--accent); overflow-wrap:anywhere; text-underline-offset:3px; }
+    a:focus-visible { outline:2px solid var(--accent); outline-offset:4px; }
+    .subtitle,.footer { color:var(--muted); }
+    .meta { margin-top:18px; padding:14px 16px; border:1px solid var(--border); border-radius:16px; background:#f7f8ff; color:var(--muted); font-size:14px; overflow-wrap:anywhere; }
+    .footer { margin-top:24px; text-align:center; font-size:14px; }
+    @media(max-width:640px) { .wrap { padding:20px 14px 40px; } .hero,.content { padding:22px 18px; border-radius:18px; } h1 { font-size:28px; } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="hero">
+      <h1>Privacy Policy</h1>
+      <p class="subtitle">This policy explains how <strong>Speaker Tester</strong>, provided by <strong>Ehsan Apps</strong>, handles information when you use the app.</p>
+      <div class="meta"><strong>Effective date:</strong> <time datetime="2026-11-03">November 3, 2026</time><br /><strong>App package:</strong> com.speakertester.android</div>
+    </header>
+    <main class="content">
+      <h2>1. Overview</h2>
+      <p>Speaker Tester is a utility app for speaker, microphone, and other audio and device tests. No account is required. The app does not ask you to provide your name, phone number, or email address to use its testing features.</p>
+      <p>Diagnostic audio is processed locally as described below. Crash reporting, advertising, and optional speech recognition involve third-party services that may process information separately.</p>
+
+      <h2>2. Microphone Permission and Audio Processing</h2>
+      <p>The app requests Android microphone permission for microphone testing, live sound-level and waveform displays, the sound meter, short recording and playback tests, and the microphone step in the full audio check. These features capture your voice or surrounding sounds while active.</p>
+      <ul>
+        <li><strong>Live measurements:</strong> Audio samples are processed on your device to calculate sound levels and display test information.</li>
+        <li><strong>Recording and playback:</strong> The microphone test can record a five-second sample. It is held temporarily in app memory for playback and is not saved as a permanent audio file. A completed new sample replaces the previous recording.</li>
+        <li><strong>Retention:</strong> The last sample may remain in memory while the test's app state exists. It is discarded when that state is released or the app process ends.</li>
+        <li><strong>Transmission:</strong> The app does not upload these diagnostic audio samples to our servers or provide them to advertising services.</li>
+      </ul>
+      <p>Capture stops when the relevant test screen is paused or closed. You can deny or revoke microphone permission in Android settings; features that depend on it will then be unavailable.</p>
+
+      <h2>3. Optional Speech Recognition</h2>
+      <p>If you choose the speech-recognition test, the app opens the speech-recognition provider installed on your device. Depending on that provider and your settings, audio may be processed locally or sent to the provider's servers. The provider's privacy policy governs its processing and retention of that audio.</p>
+      <p>Speaker Tester receives recognized text to display and evaluate the test result. This text may remain in the screen's state, including Android's temporary screen-state restoration mechanism. The app does not upload it to our servers.</p>
+
+      <h2>4. Device Information and Local Settings</h2>
+      <p>The app reads device and audio hardware information, including available input and output devices and supported audio capabilities, to operate tests and display device information. Preferences, such as sound-meter calibration, are stored locally.</p>
+      <p>Local settings may be included in Android backup or device-transfer mechanisms, depending on your device settings. The app does not maintain an account or a developer-operated cloud database for your test audio.</p>
+
+      <h2>5. Sharing Test Results</h2>
+      <p>You can choose to share test-result images through Android's sharing tools or copy device information to your clipboard. The app creates result images in its local cache to support sharing. Cached images may remain until replaced, removed by Android, or cleared through app storage settings.</p>
+      <p>When you share information, the receiving app or service handles it according to its own privacy policy. Shared test-result images do not contain the microphone audio recording.</p>
+
+      <h2>6. Advertising and Third-Party Services</h2>
+      <p>Speaker Tester uses <strong>Google AdMob</strong> to display advertisements. Google's Mobile Ads SDK may collect and share information including:</p>
+      <ul>
+        <li>Advertising and other device identifiers;</li>
+        <li>IP address, which may be used to estimate general location;</li>
+        <li>App interactions, such as ad views and taps;</li>
+        <li>Diagnostic and device information used for advertising, performance measurement, security, and fraud prevention.</li>
+      </ul>
+      <p>Processing depends on your device settings, applicable consent choices, and the services involved. The app uses Google's User Messaging Platform to request advertising consent where required. When available, you can revisit your choices through <strong>Ad privacy options</strong> in the app's settings.</p>
+      <p>Learn more in <a href="https://policies.google.com/privacy">Google's Privacy Policy</a> and <a href="https://policies.google.com/technologies/partner-sites">how Google uses information from apps that use its services</a>.</p>
+      <p>The app also uses Google Play services for in-app updates and in-app review prompts. These interactions are governed by Google's applicable privacy practices.</p>
+
+      <h2>7. Firebase Crashlytics and Diagnostics</h2>
+      <p>The app uses <strong>Firebase Crashlytics</strong>, provided by Google, to report crashes, application-not-responding errors, and other technical failures. Diagnostic reports are transmitted to Firebase to help us investigate problems and improve app stability.</p>
+      <p>Reports may contain crash stack traces, exception messages, timestamps, app version, operating system version, device model, CPU architecture, memory and storage information, and identifiers such as a Crashlytics installation UUID. These identifiers help determine how many app installations are affected by a problem.</p>
+      <p>Microphone recordings and recognized speech text are not intended to be included in crash reports. We do not use Crashlytics to record audio.</p>
+      <p>Firebase states that Crashlytics retains crash stack traces and associated identifiers for 90 days before beginning removal from live and backup systems. For details, see <a href="https://firebase.google.com/support/privacy">Firebase's Privacy and Security information</a>.</p>
+
+      <h2>8. How Information Is Used</h2>
+      <p>Information is used to operate diagnostic features, show measurements and results, remember settings, support sharing that you initiate, investigate crashes and improve stability, deliver and measure advertisements, and protect advertising services against fraud. We do not sell your microphone recordings.</p>
+
+      <h2>9. Retention and Your Choices</h2>
+      <p>Audio samples, local settings, and shared-result cache files have the retention behavior described above. You can revoke permissions, clear app storage, manage Android backup settings, or uninstall the app. Information you previously shared with another service and information processed by third-party providers are subject to those providers' retention practices.</p>
+      <p>You can manage advertising privacy settings through Android or Google settings where available, and use the app's ad privacy options when provided. Contact us for questions about information handled by the app.</p>
+
+      <h2>10. Security</h2>
+      <p>The app uses Android permissions and private app storage to help restrict access to locally handled information. No electronic storage or transmission method can be guaranteed completely secure.</p>
+
+      <h2>11. Changes to This Policy</h2>
+      <p>We may revise this policy when features or information-handling practices change. Updates will be published on this page with a revised effective date.</p>
+
+      <h2>12. Contact</h2>
+      <p>For privacy questions, contact <strong>Ehsan Apps</strong> at <a href="mailto:ehsanullahgit54@gmail.com">ehsanullahgit54@gmail.com</a>.</p>
+    </main>
+    <footer class="footer">Privacy Policy for Speaker Tester</footer>
+  </div>
+</body>
+</html>
