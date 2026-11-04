@@ -32,7 +32,7 @@
     <header class="hero">
       <h1>Privacy Policy</h1>
       <p class="subtitle">This policy explains how <strong>Speaker Tester</strong>, provided by <strong>Ehsan Apps</strong>, handles information when you use the app.</p>
-      <div class="meta"><strong>Effective date:</strong> <time datetime="2026-11-03">November 3, 2026</time><br /><strong>App package:</strong> com.speakertester.android</div>
+      <div class="meta"><strong>Effective date:</strong> <time datetime="2026-11-04">November 4, 2026</time><br /><strong>App package:</strong> com.speakertester.android</div>
     </header>
     <main class="content">
       <h2>1. Overview</h2>
@@ -40,7 +40,7 @@
       <p>Diagnostic audio is processed locally as described below. Crash reporting, advertising, and optional speech recognition involve third-party services that may process information separately.</p>
 
       <h2>2. Microphone Permission and Audio Processing</h2>
-      <p>The app requests Android microphone permission for microphone testing, live sound-level and waveform displays, the sound meter, short recording and playback tests, and the microphone step in the full audio check. These features capture your voice or surrounding sounds while active.</p>
+      <p>The app requests Android microphone permission for microphone testing, live sound-level and waveform displays, the sound meter, short recording and playback tests, the Speaker Check, and the Full Audio Check, whose automatic mode measures test tones played by the phone's own speakers. These features capture your voice or surrounding sounds while active.</p>
       <ul>
         <li><strong>Live measurements:</strong> Audio samples are processed on your device to calculate sound levels and display test information.</li>
         <li><strong>Recording and playback:</strong> The microphone test can record a five-second sample. It is held temporarily in app memory for playback and is not saved as a permanent audio file. A completed new sample replaces the previous recording.</li>
@@ -48,6 +48,7 @@
         <li><strong>Transmission:</strong> The app does not upload these diagnostic audio samples to our servers or provide them to advertising services.</li>
       </ul>
       <p>Capture stops when the relevant test screen is paused or closed. You can deny or revoke microphone permission in Android settings; features that depend on it will then be unavailable.</p>
+      <p><strong>Motion sensor:</strong> The automatic Full Audio Check reads the accelerometer for about two seconds to detect whether the vibration motor works. The readings are processed in memory on your device and are not saved or sent anywhere. Android does not ask for a permission for this sensor.</p>
 
       <h2>3. Optional Speech Recognition</h2>
       <p>If you choose the speech-recognition test, the app opens the speech-recognition provider installed on your device. Depending on that provider and your settings, audio may be processed locally or sent to the provider's servers. The provider's privacy policy governs its processing and retention of that audio.</p>
@@ -55,6 +56,7 @@
 
       <h2>4. Device Information and Local Settings</h2>
       <p>The app reads device and audio hardware information, including available input and output devices and supported audio capabilities, to operate tests and display device information. Preferences, such as sound-meter calibration, are stored locally.</p>
+      <p>Results you finish, such as Speaker Check levels, completed cleaning runs and Full Audio Check summaries, are saved in the app's private storage so you can compare them in <strong>History</strong>. They never leave your device unless you share them, and you can delete them at any time with <strong>Clear history</strong>.</p>
       <p>Local settings may be included in Android backup or device-transfer mechanisms, depending on your device settings. The app does not maintain an account or a developer-operated cloud database for your test audio.</p>
 
       <h2>5. Sharing Test Results</h2>
@@ -72,6 +74,7 @@
       <p>Processing depends on your device settings, applicable consent choices, and the services involved. The app uses Google's User Messaging Platform to request advertising consent where required. When available, you can revisit your choices through <strong>Ad privacy options</strong> in the app's settings.</p>
       <p>Learn more in <a href="https://policies.google.com/privacy">Google's Privacy Policy</a> and <a href="https://policies.google.com/technologies/partner-sites">how Google uses information from apps that use its services</a>.</p>
       <p>The app also uses Google Play services for in-app updates and in-app review prompts. These interactions are governed by Google's applicable privacy practices.</p>
+      <p>The optional <strong>Remove ads</strong> purchase is processed by <strong>Google Play Billing</strong>. Google Play handles your payment; the app only receives confirmation of whether the purchase was made, and stores that confirmation on your device so ads stay off when you are offline. We never see your payment details.</p>
       <p>To check whether the installed version is still supported, the app uses <strong>Firebase Remote Config</strong>, provided by Google. Each check may send the app's package name and Firebase app ID, a Firebase installation identifier, the operating system version, country code, language and time zone. It is used only to decide whether an update is required, and it does not include microphone audio or anything you type.</p>
 
       <h2>7. Firebase Crashlytics and Diagnostics</h2>
